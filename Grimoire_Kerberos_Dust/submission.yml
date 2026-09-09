@@ -1,0 +1,80 @@
+# UGC submission (v1) — grimoire (downloadable challenge, no machines).
+version: 1
+lab:
+  name: "kerberos-dust"
+  category: grimoire
+  difficulty: hard
+files:
+  walkthrough: walkthrough.pdf
+  artifacts: artifacts.zip
+  zipPassword: "offsec"
+questions:
+  - prompt: "What is the IP address of the initial compromised workstation?"
+    grading: classic
+    difficulty: easy
+    proofs:
+      - kind: static
+        value: "10.10.10.50"
+
+  - prompt: "Which Active Directory user account was targeted for AS-REP Roasting?"
+    grading: classic
+    difficulty: intermediate
+    proofs:
+      - kind: static
+        value: "backup_admin"
+
+  - prompt: "What Kerberos encryption type (in hexadecimal format) was downgraded in the ticket requests?"
+    grading: classic
+    difficulty: intermediate
+    proofs:
+      - kind: static
+        value: "0x17"
+
+  - prompt: "What Service Principal Name (SPN) was queried in the targeted Kerberoasting attack?"
+    grading: classic
+    difficulty: intermediate
+    proofs:
+      - kind: static
+        value: "MSSQLSvc/db01.synapse.corp:1433"
+
+  - prompt: "What is the underlying domain username associated with the Kerberoasted service?"
+    grading: classic
+    difficulty: intermediate
+    proofs:
+      - kind: static
+        value: "svc_sql"
+
+  - prompt: "What is the full binary path of the offensive tool executed on WS01 to request tickets?"
+    grading: classic
+    difficulty: intermediate
+    proofs:
+      - kind: static
+        value: "C:\\Users\\j.doe\\AppData\\Local\\Temp\\Rubeus.exe"
+
+  - prompt: "What Windows Logon Type number was recorded during Overpass-the-Hash?"
+    grading: classic
+    difficulty: intermediate
+    proofs:
+      - kind: static
+        value: "9"
+
+  - prompt: "What Active Directory Extended Access Right GUID was invoked for the DCSync attack?"
+    grading: classic
+    difficulty: hard
+    proofs:
+      - kind: static
+        value: "1131f6aa-9c07-11d1-f79f-00c04fc2dcd2"
+
+  - prompt: "Which domain account was targeted alongside Administrator for DCSync hash replication?"
+    grading: classic
+    difficulty: hard
+    proofs:
+      - kind: static
+        value: "krbtgt"
+
+  - prompt: "What is the name of the malicious scheduled task registered on DC01?"
+    grading: classic
+    difficulty: intermediate
+    proofs:
+      - kind: static
+        value: "\\SynapseHealthCheck"

